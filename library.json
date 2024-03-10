@@ -1,0 +1,28 @@
+{
+    "name": "pio-lib-blink",
+    "version": "0.0.1",
+    "description": "A \"blink lib\" for platform IO ",
+    "keywords": "blink Arduino",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/onlinelei/pio-lib-blink"
+    },
+    "authors":
+    [
+      {
+        "name": "ray",
+        "email": "suqianlei@gmail.com",
+        "url": "",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/onlinelei/pio-lib-blink",
+    "dependencies": {
+
+    },
+    "frameworks": "arduino",
+    "platforms": "raspberrypi, espressif8266, espressif32, ststm32",
+    "headers": ["blink.h", "include/*"]
+  }
