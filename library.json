@@ -13,7 +13,6 @@
       {
         "name": "ray",
         "email": "suqianlei@gmail.com",
-        "url": "",
         "maintainer": true
       }
     ],
@@ -24,5 +23,5 @@
     },
     "frameworks": "arduino",
     "platforms": "raspberrypi, espressif8266, espressif32, ststm32",
-    "headers": ["blink.h", "include/*"]
+    "headers": ["BlinkUtil.h", "include/*"]
   }
